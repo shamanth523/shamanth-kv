@@ -6,31 +6,31 @@
 		              Stack operation
 		</title>
 		
-		<!-- css sheet for how the page is laid out -->
+		
 		
 		<link rel="stylesheet" href="array.css">
 			
 			
 		<!-- jqueury stuff.  Only used for the animation speed slider. -->
-		<link rel="stylesheet" href="ThirdParty/jquery-ui-1.8.11.custom.css">				
-		<script src="ThirdParty/jquery-1.5.2.min.js"></script>
-		<script src="ThirdParty/jquery-ui-1.8.11.custom.min.js"></script>
+		<link rel="stylesheet" href="custom.css">				
+		<script src="min.js"></script>
+		<script src="custom.min.js"></script>
 				
 		<!-- Javascript for the actual visualization code -->
-		<script type = "application/javascript" src = "AnimationLibrary/CustomEvents.js"> </script>
-		<script type = "application/javascript" src = "AnimationLibrary/UndoFunctions.js"> </script>
-		<script type = "application/javascript" src = "AnimationLibrary/AnimatedObject.js"> </script>
-		<script type = "application/javascript" src = "AnimationLibrary/AnimatedLabel.js"> </script>
-		<script type = "application/javascript" src = "AnimationLibrary/AnimatedCircle.js"> </script>
-		<script type = "application/javascript" src = "AnimationLibrary/AnimatedRectangle.js"> </script>
-		<script type = "application/javascript" src = "AnimationLibrary/AnimatedLinkedList.js"> </script>
-		<script type = "application/javascript" src = "AnimationLibrary/HighlightCircle.js"> </script>
-		<script type = "application/javascript" src = "AnimationLibrary/Line.js"> </script>
-		<script type = "application/javascript" src = "AnimationLibrary/ObjectManager.js"> </script>
-		<script type = "application/javascript" src = "AnimationLibrary/AnimationMain.js"> </script>
+		<script type = "application/javascript" src = "CustomEvents.js"> </script>
+		<script type = "application/javascript" src = "UndoFunctions.js"> </script>
+		<script type = "application/javascript" src = "AnimatedObject.js"> </script>
+		<script type = "application/javascript" src = "AnimatedLabel.js"> </script>
+		<script type = "application/javascript" src = "Circle.js"> </script>
+		<script type = "application/javascript" src = "Rectangle.js"> </script>
+		<script type = "application/javascript" src = "LinkedList.js"> </script>
+		<script type = "application/javascript" src = "lightCircle.js"> </script>
+		<script type = "application/javascript" src = "Line.js"> </script>
+		<script type = "application/javascript" src = "ObjectManager.js"> </script>
+		<script type = "application/javascript" src = "Main.js"> </script>
 
-		<script type = "application/javascript" src = "AlgorithmLibrary/Algorithm.js"> </script>
-		<script type = "application/javascript" src = "AlgorithmLibrary/StackArray.js"> </script> 
+		<script type = "application/javascript" src = "Algorithm.js"> </script>
+		<script type = "application/javascript" src = "StackArray.js"> </script> 
 				
 			
 	 </head> 
@@ -51,7 +51,7 @@
 					<table id="AlgorithmSpecificControls"> </table> 
 				</div>
 				
-					<!-- Drawing canvas where all animation is done.  Note:  can be resized in code -->
+					
 									
 				<canvas id="canvas" width="1000" height="500"></canvas>
 				
@@ -62,12 +62,12 @@
 					<table id="GeneralAnimationControls">  </table>		
 				</div>
 				
-			</div> <!-- mainContent -->
+			</div> 
 			
 			<div id="footer">  
 				<p>thank you</p>
 			</div>
 
-		</div><!-- container -->
+		</div>
 	</body>
 </html>
